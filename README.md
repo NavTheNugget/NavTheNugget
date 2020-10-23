@@ -12,3 +12,18 @@ I have recently started developing Web Apps, Making complex architectures which 
 
 ## Conclusion
 This is basically what I have learned in programming so far, this repo actually contains my own personal website where I make a complete joke out of myself to make people laugh... I have actually added a few social media links at the end of the web page, so be sure to check them out, to see how big of a dumbass I am myself.
+
+### Project ideas
+Down Below is the List of Project Ideas that I came up with in 2 minutes because I am lazy, I would keep adding ideas to this list:
+##### Multiplayer Game
+Softwares to Build
+- UDP Server
+Programming Language of Choice: C++
+- Game
+Tools that can be used: Unity, Unreal Engine, Godot, OpenGL, SDL2, LWJGL, literally any game engine or framework.
+
+**Deploy**
+Deploy the Server on a VPS Server, choose from list down below:
+- High Frequency Compute($6) from [Vultr](https://www.vultr.com/products/high-frequency-compute/)
+- [Digitalocean](https://www.digitalocean.com/pricing/)
+Any VPS can be used, these are the ones I recommend for this project.
