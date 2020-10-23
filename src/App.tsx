@@ -29,11 +29,11 @@ const App = () => {
                 <div className="subheader">Still a High Schooler, lives in Australia. <span id="learn-more" onClick={() => {setShow(true);}}>Learn More</span></div>
                 <div id="social-media">
                     <div id="icons">
-                        <a href="https://instagram.com/NavTheNugget" className="link"><img src={InstagramLogo} alt="" className="invert" /></a>
-                        <a href="https://twitter.com/NavTheNugget" className="link"><img src={TwitterLogo} alt=""/></a>
-                        <a href="https://github.com/NavTheNugget" className="link"><img src={GithubLogo} alt=""/></a>
-                        <a href="https://discord.gg/bW5EC6u" className="link"><img src={DiscordLogo} alt=""/></a>
-                        <a href="https://patreon.com/NavTheNugget" className="link"><img src={PatreonLogo} alt=""/></a>
+                        <a href="https://instagram.com/NavTheNugget" target="_blank" rel="noopener noreferrer" className="link"><img src={InstagramLogo} alt="" className="invert" /></a>
+                        <a href="https://twitter.com/NavTheNugget" target="_blank" rel="noopener noreferrer" className="link"><img src={TwitterLogo} alt=""/></a>
+                        <a href="https://github.com/NavTheNugget" target="_blank" rel="noopener noreferrer" className="link"><img src={GithubLogo} alt=""/></a>
+                        <a href="https://discord.gg/bW5EC6u" target="_blank" rel="noopener noreferrer" className="link"><img src={DiscordLogo} alt=""/></a>
+                        <a href="https://patreon.com/NavTheNugget" target="_blank" rel="noopener noreferrer" className="link"><img src={PatreonLogo} alt=""/></a>
                     </div>
                 </div>
             </div>
