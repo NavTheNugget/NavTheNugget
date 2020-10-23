@@ -26,4 +26,6 @@ Tools that can be used: Unity, Unreal Engine, Godot, OpenGL, SDL2, LWJGL, litera
 Deploy the Server on a VPS Server, choose from list down below:
 - High Frequency Compute($6) from [Vultr](https://www.vultr.com/products/high-frequency-compute/)
 - [Digitalocean](https://www.digitalocean.com/pricing/)
+
+
 Any VPS can be used, these are the ones I recommend for this project.
