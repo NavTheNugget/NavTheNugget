@@ -3,47 +3,29 @@ import GithubLogo from './assets/GitHub.png';
 import TwitterLogo from './assets/Twitter.png';
 import InstagramLogo from './assets/Instagram.png';
 import PatreonLogo from './assets/Patreon.png';
-import DiscordLogo from './assets/Discord.png';
 import './app.scss';
 import Modal from './components/modal';
 
 const App = () => {
     const [show, setShow] = useState<boolean>(false);
-    const [affiliate, setAffiliate] = useState<boolean>(false);
 
     const closeCallback = () => setShow(false);
     return (
         <div id="app">
             <Modal show={show} closeCallback={closeCallback}>
                 <div className="modal-header">Learn More about this Potato</div>
-                <p className="modal-text">Welcome my nuggets! I am thicc fat potato sitting in front of a computer. I am 14 years old, look like a giraffe and sleep like a dolphin. Yes I know the previous two sentences don't make sense just like my life. I wake up at 6:45am and go to bathroom to do what you also do, you know on the seat... I wake up at 1:00pm on holidays. <br/>
-                I have made two render engines and one physics engine, with all the nerdy stuff done myself. I moved to Australia in 2019, I annoy my teachers and do not take any school work seriously. <br/>
-                I moved from India btw, to clear any confussion: I am not a scammer neither is my family, and no I can't fix your computer or washing machine or TV. <br/>
-                I like calling myself a dumbass, because I am one. I have been coding since I was eight. I once went about 9 days without pooping, was this relevant? Hell No. <br/>
-                I like spending my money on things that don't matter like my life and silly websites about my teachers and sometimes I have to make websites for my assignments to fill up the bibliography... <br/>
-                I code on a Macbook Pro 13" 2019 128Gb SSD, 8Gb RAM. I use Airpods 2nd Gen without Wireless Charging, I have a siz year old iPhone 6s 16 Gb which requires a powerbank attached with it all the time. <br/>
-                If you are fascinated by this lifeless potato then join his <a href="https://discord.gg/bW5EC6u">Discord Server</a> so that he can have some friends and not just talk to his pillow. <br/>
-                You can find this potato on instagram, I like being around people btw.</p>
-            </Modal>
-            <Modal show={affiliate} closeCallback={() => { setAffiliate(false); }}>
-                <div className="modal-header">Use These Links When Subscribing to their Servie...</div>
-                <div className="modal-text">
-                    <ol>
-                        <li><a href="https://www.vultr.com/?ref=8726954">Vultr: VPS</a></li>
-                    </ol>
-                </div>
+                <p className="modal-text">I'm a thiccc fat potato sitting in front of bloody computer; I am 14; I look like a Giraffe and Sleep like a Dolphin; Yes I know the previous two sentences don't make sense just like my life; I wake up at- Oh yeah I don't wake up, because I don't sleep; I have made two render engines and one physics engine; I have made several authentication mechanisms; I was born in Delhi, India Btw; I moved to Australia in 2019; I'm not scammer, idk about my family; I can't fix your PC or Washing Machine or TV or Ur mom; <br/>I like calling myself a dumbass, because I am one; I have been coding since I was eight; I once went about 9 days without pooping, was this relevant? Hell No; <br/>Russia is the largest country, just behind Ur mom; <br/>I can make a website for your assignment, to fill up your bibliography; <br/>I'm the Creator of <a href="https://dreaminnovationteam.xyz">https://dreaminnovationteam.xyz</a>; https://dreaminnovationteam.xyz is the only thing I'm proud of; I'm a registered Apple, Android, Xbox, Playstation and Microsoft Developer; I learnt English when I was 8, after/during I learnt/was learning to code; Rubber Ducks; I might change this website again after a few months;</p>
             </Modal>
 
             <div id="landing">
                 <div className="header">NavTheNugget or Lifeless Potato</div>
                 <div className="subheader">Professional Dumbass, Programmer, Potato</div>
-                <div className="subheader">Still a High Schooler, lives in Australia. <span id="learn-more" onClick={() => {setShow(true);}}>Learn More</span> <span id="affiliates"></span></div>
+                <div className="subheader">Still a High Schooler, lives in Australia. Hates School btw. <span id="learn-more" onClick={() => {setShow(true);}}>Learn More</span> <span id="affiliates"></span></div>
                 <div id="social-media">
                     <div id="icons">
                         <a href="https://instagram.com/NavTheNugget" target="_blank" rel="noopener noreferrer" className="link"><img src={InstagramLogo} alt="" className="invert" /></a>
                         <a href="https://twitter.com/NavTheNugget" target="_blank" rel="noopener noreferrer" className="link"><img src={TwitterLogo} alt=""/></a>
                         <a href="https://github.com/NavTheNugget" target="_blank" rel="noopener noreferrer" className="link"><img src={GithubLogo} alt=""/></a>
-                        <a href="https://discord.gg/bW5EC6u" target="_blank" rel="noopener noreferrer" className="link"><img src={DiscordLogo} alt=""/></a>
                         <a href="https://patreon.com/NavTheNugget" target="_blank" rel="noopener noreferrer" className="link"><img src={PatreonLogo} alt=""/></a>
                     </div>
                 </div>
