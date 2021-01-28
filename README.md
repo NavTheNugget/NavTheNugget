@@ -1,7 +1,7 @@
 # NavTheNugget
 Hey There! I am Nav or NavTheNugget, I am a teenage programmer, I code after school and sometimes before school as well. I have been coding since the age of eight, my first programming language was C. Then I learned C++ and Then Java and then Python. I recently learned Javascript and Typescript and now develop Web Apps using React, Typescript and Express.
 
-## 2012 - 2019
+## 2014 - 2019
 From 8 Years to 13 Years
 
 ### Game Development
