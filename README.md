@@ -35,7 +35,7 @@ StartupConvo is a Startup Discovery Platform, StartupConvo comes in with a built
 - ProductHunt: [http://producthunt.com/posts/startupconvo](http://producthunt.com/posts/startupconvo)
 - App Store iOS: [http://apps.apple.com/us/app/startupconvo/id1549181697](http://apps.apple.com/us/app/startupconvo/id1549181697)
 - Facebook: [http://facebook.com/StartupConvo](http://facebook.com/StartupConvo)
-- Facebook: [http://github.com/StartupConvo](http://github.com/StartupConvo)
+- GitHub: [http://github.com/StartupConvo](http://github.com/StartupConvo)
 - Website: [http://startupconvo.com](http://startupconvo.com)
 
 ## Conclusion
