@@ -1,4 +1,4 @@
-# Update: 12 September 2021.
+# Update: 12 September 2021
 
 Peak-a-boo 👻!
 
