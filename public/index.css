@@ -1,28 +1,202 @@
-* {
-    background-color: #f8f8f8;
-    color: black;
-    font-family: 'Ubuntu', sans-serif;
-    padding: 0;
-    margin: 0;
-} 
+/* MADE BY NAV PAHWA 2021. */
+/* ADDING THIS SO THAT PEOPLE KNOW I SPENT 3 HOURS BUILDING THIS(THAT'S A LIE) */
+
+@keyframes blink_animation {
+    0%, 100% {
+        background-color: black;
+    }
+    50% {
+        background-color: transparent;
+    }
+}
 
 body {
-    display: flex;
-    justify-content: center;
+    position: relative;
+}
+
+.header {
     width: 100%;
-    height: 100vh;
-    top: 0;
-    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1.5rem;
+    box-sizing: border-box;
 }
 
-.letter {
+.header .title {
+    font-weight: bold;
+    font-size: 2.3rem;
+    color: #113d67;
+}
+
+.header .blinker {
+    margin: 0 1rem;
     display: block;
-    width: 500px;
-    max-width: 95%;
-    padding: 15px 0px 15px 0px;
+    height: 2.3rem;
+    width: 1rem;
+    animation: blink_animation 1000ms infinite steps(1, start);
 }
 
-a {
-    text-decoration: none;
-    color: gray;
+.header .description {
+    font-size: 1.5rem;
+}
+
+
+.mobile-header {
+    display: none;
+    visibility: hidden;
+}
+
+
+.body-wrapper {
+    width: 100%;
+    padding: 0.5rem 1rem 3rem 1rem;
+    box-sizing: border-box;
+}
+
+.body-wrapper .body {
+    font-size: 1.2rem;
+}
+
+.body-wrapper .body ul {
+    padding: 1rem 1.5rem;
+    box-sizing: border-box;
+}
+
+.body-wrapper .body .films--title {
+    color: #113d67;
+    font-size: 2rem;
+}
+
+.body-wrapper .body .films--grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: calc(100%/4) calc(100%/4) calc(100%/4) calc(100%/4);
+}
+
+.films--grid .film--thumbnail {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.films--grid .film--thumbnail img {
+    width: 95%;
+    height: 95%;
+    border-radius: 4px;
+    transition: all 200ms;
+}
+
+.films--grid .film--thumbnail img:hover {
+    transform: translateY(-3px);
+}
+
+
+.bottom-panel {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.bottom-panel .youtube-logo, 
+.bottom-panel .github-logo,
+.bottom-panel .snapchat-logo,
+.bottom-panel .youtube-logo svg, 
+.bottom-panel .github-logo svg,
+.bottom-panel .snapchat-logo svg {
+    display: block;
+    height: 1.8rem;
+    width: 1.8rem;
+}
+
+.bottom-panel .github-logo,
+.bottom-panel .snapchat-logo {
+    margin-right: 1rem;
+}
+
+
+@media (min-width: 910px) and (max-width: 1100px) {
+    .body-wrapper .body .films--grid {
+        grid-template-columns: calc(100%/3) calc(100%/3) calc(100%/3);
+    }
+}
+
+@media (min-width: 600px) and (max-width: 909px) {
+    .body-wrapper .body .films--grid {
+        grid-template-columns: calc(100%/2) calc(100%/2) !important;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 909px) {
+    .header {
+        display: none;
+        visibility: none;
+    }
+
+    .mobile-header {
+        visibility: visible;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .mobile-header .title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #113d67;
+    }
+
+    .mobile-header .description {
+        font-size: 1.2rem;
+        border-top: 1px solid gray;
+    }
+
+
+    .body-wrapper {
+        padding: 0.7rem;
+        padding-bottom: 4rem;
+    }
+
+    .body-wrapper .body {
+        font-size: 1rem;
+    }    
+
+    .body-wrapper .body ul {
+        padding: 1rem 1.5rem;
+        box-sizing: border-box;
+    }
+
+
+    .bottom-panel .youtube-logo, 
+    .bottom-panel .github-logo,
+    .bottom-panel .snapchat-logo,
+    .bottom-panel .youtube-logo svg, 
+    .bottom-panel .github-logo svg,
+    .bottom-panel .snapchat-logo svg {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+
+    .body-wrapper .body .films--title {
+        font-size: 1.4rem;
+    }
+
+    .body-wrapper .body .films--grid {
+        grid-template-columns: 100%;
+    }
+
+    .films--grid .film--thumbnail {
+        margin-bottom: 1rem;
+    }
 }
