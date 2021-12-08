@@ -1,3 +1,6 @@
-# Update: 7 November 2021
+# Update: 8 December 2021
 
-idk, building components, and burning my hand. also a kernel, and... app, and.... web app, and... yeah. nice.
+Currently Building an App, also a Rocket, and a CPU. Yes.
+
+## CPU
+If you follow me on TikTok, then you probably will see me explode a lot of shit over the coming months.
