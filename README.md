@@ -1,6 +1,4 @@
-# Update: 8 December 2021
+# Update: 5 May 2022
+Still 15.
 
-Currently Building an App, also a Rocket, and a CPU. Yes.
-
-## CPU
-If you follow me on TikTok, then you probably will see me explode a lot of shit over the coming months.
+Also, working on an operating system for fun, and some more stuff, planning to file my first patent as well.
